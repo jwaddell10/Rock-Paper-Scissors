@@ -53,6 +53,7 @@ function game() {
         return 'You tied the computer!'
     }
     
-        } console.log('result', game())
+} 
+    console.log('result', game())
 
 
