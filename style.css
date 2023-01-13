@@ -1,0 +1,28 @@
+.characterClass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pictures {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.choices {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    margin-left: 42px;
+    margin-right: 42px;
+    padding: 0px;
+    border: 0px;
+    font-size: 30px;
+    font-style: bold;
+}
