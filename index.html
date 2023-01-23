@@ -10,19 +10,51 @@
 </head>
 
 <body>
-  <script src="index.js"></script>
-  <div class="characterClass">
-    <h1>Choose your Character!</h1>
+
+  <h1>Choose your Character!</h1>
+
+  <div class="buttons">
+
+
+    <button id="rockBtn" value="rock">
+      <img src="https://www.seekpng.com/png/detail/816-8161371_rock-paper-scissor-icon-png.png" alt="rock">
+    </button>
+    <button class="playPaper" id="paperBtn" value="paper">
+      <img
+        src="https://www.pngitem.com/pimgs/m/266-2667252_transparent-rock-paper-scissors-clipart-rock-paper-scissors.png"
+        alt="paper">
+    </button>
+    <button class="playScissors" id="scissorsBtn" value="scissors">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgfEvI5QqnPXFC3_pDL4sjDNUQhheHN_sZsStpAnIMcK3dWZqXEVfLjTsPiFJPZZ0LGo0&usqp=CAU"
+        alt="scissors">
+    </button>
   </div>
-  <div class="pictures">
-    <img src="https://t4.ftcdn.net/jpg/03/32/86/27/360_F_332862747_zb0oXy6txyqlopzJAW3UNQJCPxTg7eUx.jpg"
-      alt="Rock-Paper-Scissors">
-  </div>
-  <div class="choices">
+
+  <div class=" choices">
     <p><strong>Rock</strong></p>
     <p><strong>Paper</strong></p>
     <p><strong>Scissors</strong></p>
   </div>
+
+  <div class="results">
+    <div class="score-box">
+      <p> Score Board: </p>
+    </div>
+    <div class="scores">
+      <div id="computer_score">
+        <P> Computer: <span class="computer_score"> 0 </span></P>
+      </div>
+      <div id="player_score">
+        <p> Player: <span class="player_score"> 0 </span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="reset">
+    <button onclick="reset()">Try Again</button>
+  </div>
+  <script src="index.js"></script>
 </body>
 
 </html>
